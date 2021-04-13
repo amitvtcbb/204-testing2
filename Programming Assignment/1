@@ -1,0 +1,7 @@
+WAP to create structure item(iid,iname,qty,rate,amount). Print item details.
+
+Input: Item id = 1
+       Item name= Pen
+       Item Qty= 20
+       Item Rate=40
+       Item amount=800
