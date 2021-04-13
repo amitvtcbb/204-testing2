@@ -3,5 +3,6 @@ a.out:
 
 clean:
 	rm prog1
+	
 test: a.out
 	bash test.sh
