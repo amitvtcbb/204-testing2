@@ -1,8 +1,7 @@
 a.out:
-	gcc hello.c
+	gcc prog1.c
 
 clean:
-	rm hello
-
+	rm prog1
 test: a.out
 	bash test.sh
