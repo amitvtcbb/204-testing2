@@ -1,5 +1,3 @@
-all: prog1.o
-	chmod 755 prog1.o
 prog1.o: prog1.c
 	@echo "Creating object.."
 	gcc -c prog1.c
@@ -8,6 +6,10 @@ prog1.o: prog1.c
 clean:
 	@echo "Cleaning up..."
 	rm prog1.o prog1
-	
+
+prog1.o:
+        echo "Set Permission..."
+	chmod 755 prog1.o	
+
 test: prog1.o
 	bash test.sh
