@@ -1,6 +1,7 @@
 echo "Running tests..."
 echo
 
+chmod a+x prog1.o
 output=$(./prog1.o)
 expected_output="1 Pen 20 20 400"
 
