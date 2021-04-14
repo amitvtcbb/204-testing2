@@ -1,8 +1,10 @@
-a.out:
-	gcc prog1.c
+prog1.o: prog1.c
+	@echo "Creating object.."
+	gcc -c prog1.c
 
 clean:
-	rm prog1
+	@echo "Cleaning up..."
+	rm prog1.o prog1
 	
-test: a.out
+test: prog1.o
 	bash test.sh
