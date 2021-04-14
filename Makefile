@@ -1,3 +1,5 @@
+all: prog1.o
+	chmod 755 prog1.o
 prog1.o: prog1.c
 	@echo "Creating object.."
 	gcc -c prog1.c
