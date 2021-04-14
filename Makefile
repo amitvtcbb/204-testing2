@@ -9,7 +9,7 @@ clean:
 
 prog1.o:
         echo "Set Permission..."
-	chmod 755 prog1.o	
+	chmod 755 prog1	
 
 test: prog1.o
 	bash test.sh
