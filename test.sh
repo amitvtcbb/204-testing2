@@ -1,8 +1,7 @@
 echo "Running tests..."
 echo
 
-chmod a+x prog1.o
-output=$(./prog1.o)
+output=$(./a.out)
 expected_output="1 Pen 20 20 400"
 
 if [ $? -eq 0 ] ; then
